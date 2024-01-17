@@ -39,7 +39,7 @@ object PasswordGenerator {
 
     private fun stringifyPassword(password: Array<String>): String {
         var output = ""
-        for (el in password) output += output
+        for (el in password) output += el
         return output
     }
 }
